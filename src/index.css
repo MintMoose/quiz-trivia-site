@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    font-family: karla;
+    background-color: #F5F7FB;
+}
+
+
+
+.homepage-div   {
+    display: flex;
+    flex-direction: column;
+    color: #293264;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.homepage-div h2{
+    font-size: 31px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+.homepage-div h4{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.colour--button {
+    background-color: #4D5B9E;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 183px;
+    color: #F5F7FB;
+    font-size: 16px;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.colour--button:hover {
+    background-color: #293264
+}
+
+
+.submit--button {
+    background-color: #4D5B9E;
+    border: none;
+    border-radius: 12px;
+    height: 30px;
+    width: 100px;
+    color: #F5F7FB;
+    font-size: 11px;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px auto 0px auto;
+}
+
+.submit--button:hover {
+    background-color: #293264;
+
+}
+
+.questionpage-div {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: 10px;
+    
+    
+}
+
+.question-answers {
+    display: inline;
+}
+
+
+
+.entire-div {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.inline-button span {
+    font-size: 15px;
+}
+
+/* .each-question button {
+    background-color: #F5F7FB;
+    border: 1.3px solid #4D5B9E;
+    padding: 1%;
+    border-radius: 5px;
+    color: #293264;
+    margin-left: 10px;
+    flex-basis: 33%
+} */
+
+
+.each-question {
+    margin: 5px;
+    color: #293264;
+}
+
+.each-question label:hover {
+    background: #DDD;
+}
+
+.each-question input[type="radio"] {
+  opacity: 0;
+  z-index: 100;
+    
+}
+
+.inline-button button {
+    margin-left: 10px;
+}
+
+.inline-button span {
+    color: #293264
+}
+
+
+.each-question label {
+    padding: 5px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    z-index: 90;
+    color: #293264;
+    border-radius: 15px;
+    height: 50px;
+    width: 183px;
+    font-size: 9px;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 500; 
+    
+}
+
+.disabled {
+    pointer-events: none; 
+}
+
+
+
+.each-question input[type="radio"]:checked+label,
+.Checked+label {
+  background-color: #D6DBF5;
+}
+
+.right {
+    background-color: #94D7A2;
+}
+
+.wrong {
+    background-color: #F8BCBC;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #DBDEF0;
+    margin: 1em 0;
+    padding: 0;
+}
