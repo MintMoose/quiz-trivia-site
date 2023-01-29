@@ -1,7 +1,13 @@
 # Quizzical Trivia site using React
 
 Given a [Figma design](https://www.figma.com/file/E9S5iPcm10f0RIHK8mCqKL/Quizzical-App?node-id=0%3A1 "Figma Design") and a requirement run down this solo project reinforced the fundamental concepts of React.\
-Scrimba Learn React Section 4 Solo Project\
+Scrimba Learn React Section 4 Solo Project
+
+<span>
+  <img src=images/quizzical-home.png width=350/>
+<img src=images/quizzical-input.png width=350/>
+<img src=images/quizzical-quiz.png width=350/>
+</span>
 
 ## Usage
 
