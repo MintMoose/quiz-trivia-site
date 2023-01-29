@@ -89,16 +89,6 @@
   font-weight: 700;
 }
 
-/* .each-question button {
-    background-color: #F5F7FB;
-    border: 1.3px solid #4D5B9E;
-    padding: 1%;
-    border-radius: 5px;
-    color: #293264;
-    margin-left: 10px;
-    flex-basis: 33%
-} */
-
 .button-row {
   display: flex;
 }

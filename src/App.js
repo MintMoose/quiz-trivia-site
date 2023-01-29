@@ -11,7 +11,6 @@ export default function App() {
   const [submit, setSubmit] = React.useState(false);
 
   function hideHomePage() {
-    console.log("CLick");
     setShowPage(false);
   }
 
@@ -60,14 +59,11 @@ export default function App() {
             ]),
             selected: "",
           });
-
-          //console.log(questions)
         });
         setTheQuestion(questions);
       });
   }
   const changedSelected = ({ element, obj }) => {
-    // console.log("Clicky " + obj + " " + element.id)
     setTheQuestion((oldState) =>
       oldState.map((question) => {
         return question.id === element.id
@@ -92,6 +88,3 @@ export default function App() {
     </div>
   );
 }
-
-// <h1>So it begins.</h1>
-// <QuestionPage/>

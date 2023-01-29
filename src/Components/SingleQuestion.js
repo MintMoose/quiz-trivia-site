@@ -1,10 +1,6 @@
 import React from "react";
 
 export default function singleQuestion(props) {
-  // const handleClick = () => {
-  //     console.log("Clicky")
-  // }
-
   const theButtons = props.answers.map((element) => {
     const styles = {
       backgroundColor:
@@ -15,7 +11,7 @@ export default function singleQuestion(props) {
           : "",
       opacity: props.done && props.correct !== element && 0.5,
     };
-    // return <button>{element}</button>
+
     return (
       <div className="question-answers">
         <input
