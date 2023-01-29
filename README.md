@@ -5,7 +5,7 @@ Scrimba Learn React Section 4 Solo Project
 
 <span>
   <img src=images/quizzical-home.png width=200/>
-<img src=images/quizzical-input.png width=350/>
+<img src=images/quizzical-input.png width=300/>
 <img src=images/quizzical-quiz.png width=300/>
 </span>
 
