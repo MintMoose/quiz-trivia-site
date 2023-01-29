@@ -1,6 +1,6 @@
-# Quizzical Trivia Website using React
+# Quizzical Trivia site using React
 
-Given a Figma design and a requirement run down this solo project reinforced the fundamental concepts of React.__
+Given a Figma design and a requirement run down this solo project reinforced the fundamental concepts of React.\
 Scrimba Learn React Section 4 Solo Project
 
 ## Usage
@@ -21,11 +21,11 @@ You may also see any lint errors in the console.
 
 ## What i Learnt
 
-Using knowledge learnt from other scrimba tutorials. This solo project allowed me to create a react app without a solution given to me at the end.__
-This project shared many similarities with other tutorials.__
+Using knowledge learnt from other scrimba tutorials.\
+This solo project allowed me to create a react app without a solution given to me at the end.\
 Doing this project reinforced the fundamental concepts of React as i came to the end product from independent research and past knowledge.
 
-## Code Splitting
+## Improvements
 
 Correcting the opentdb api data and using css to make the site friendly/dynamic for different devices would finalise this project.
 
