@@ -1,7 +1,7 @@
 # Quizzical Trivia site using React
 
-Given a Figma design and a requirement run down this solo project reinforced the fundamental concepts of React.\
-Scrimba Learn React Section 4 Solo Project
+Given a [Figma design](https://www.figma.com/file/E9S5iPcm10f0RIHK8mCqKL/Quizzical-App?node-id=0%3A1 "Figma Design") and a requirement run down this solo project reinforced the fundamental concepts of React.\
+Scrimba Learn React Section 4 Solo Project\
 
 ## Usage
 
@@ -28,4 +28,3 @@ Doing this project reinforced the fundamental concepts of React as i came to the
 ## Improvements
 
 Correcting the opentdb api data and using css to make the site friendly/dynamic for different devices would finalise this project.
-
