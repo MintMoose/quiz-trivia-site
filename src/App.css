@@ -34,7 +34,7 @@
   height: 50px;
   width: 183px;
   color: #f5f7fb;
-  font-size: 24px;
+  font-size: 18px;
   font-family: inter;
   font-style: normal;
   font-weight: 500;
@@ -48,9 +48,9 @@
   background-color: #4d5b9e;
   border: none;
   border-radius: 12px;
-  padding: 10px 20px;
+  padding: 15px 25px;
   color: #f5f7fb;
-  font-size: 24px;
+  font-size: 15px;
   font-family: inter;
   font-style: normal;
   font-weight: 400;
@@ -116,12 +116,12 @@
 }
 
 .each-question label {
-  padding: 5px 10px;
-  border: 1px solid #ccc;
+  padding: 5px 15px;
+  border: 1px solid #293264;
   cursor: pointer;
   z-index: 90;
   color: #293264;
-  border-radius: 15px;
+  border-radius: 10px;
   height: 50px;
   width: 183px;
   font-size: 14px;
@@ -137,6 +137,7 @@
 .each-question input[type="radio"]:checked + label,
 .Checked + label {
   background-color: #d6dbf5;
+  border: none;
 }
 
 .right {

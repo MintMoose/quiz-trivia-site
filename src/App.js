@@ -49,7 +49,6 @@ export default function App() {
       "https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple"
     );
     let data = await response.json();
-    console.log(data);
 
     data.results.forEach((quest) => {
       questions.push({
