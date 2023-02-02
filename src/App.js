@@ -43,8 +43,9 @@ export default function App() {
     return arr;
   }
 
-  function renderMyData() {
+  async function renderMyData() {
     let questions = [];
+
     fetch("https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple")
       .then((response) => response.json())
       .then((data) => {
