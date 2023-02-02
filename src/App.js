@@ -45,25 +45,25 @@ export default function App() {
 
   async function renderMyData() {
     let questions = [];
+    const response = await fetch(
+      "https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple"
+    );
+    let data = await response.json();
+    console.log(data);
 
-    fetch("https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple")
-      .then((response) => response.json())
-      .then((data) => {
-        data.results.forEach((quest) => {
-          questions.push({
-            id: nanoid(),
-            question: quest.question,
-            correct: quest.correct_answer,
-            answers: shuffle([
-              ...quest.incorrect_answers,
-              quest.correct_answer,
-            ]),
-            selected: "",
-          });
-        });
-        setTheQuestion(questions);
+    data.results.forEach((quest) => {
+      questions.push({
+        id: nanoid(),
+        question: quest.question,
+        correct: quest.correct_answer,
+        answers: shuffle([...quest.incorrect_answers, quest.correct_answer]),
+        selected: "",
       });
+    });
+
+    setTheQuestion(questions);
   }
+
   const changedSelected = ({ element, obj }) => {
     setTheQuestion((oldState) =>
       oldState.map((question) => {
