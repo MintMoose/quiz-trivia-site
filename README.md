@@ -3,9 +3,9 @@
 Given a [Figma design](https://www.figma.com/file/E9S5iPcm10f0RIHK8mCqKL/Quizzical-App?node-id=0%3A1 "Figma Design") and a requirement run down this solo project reinforced the fundamental concepts of React.
 
 <span>
-  <img src=images/quizzical-home.png height=220/>
-<img src=images/quizzical-input.png height=220/>
-<img src=images/quizzical-quiz.png height=220/>
+  <img src=images/quizzical-home.png height=300/>
+<img src=images/quizzical-input.png height=300/>
+<img src=images/quizzical-quiz.png height=400/>
 </span>
 
 ## Usage
