@@ -28,7 +28,7 @@ export default function singleQuestion(props) {
   });
 
   return (
-    <div data-testid="single-question" className="each-question">
+    <div data-testid={`question-${props.id}`} className="each-question">
       <h3>{props.question}</h3>
       <div className="button-row">{theButtons}</div>
       <hr />
