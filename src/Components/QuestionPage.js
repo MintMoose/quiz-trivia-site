@@ -6,6 +6,7 @@ export default function QuestionPage(props) {
     return (
       <SingleQuestion
         key={element.id}
+        id={element.id}
         done={props.done}
         handleClick={(obj) => props.handler({ element, obj })}
         {...element}
