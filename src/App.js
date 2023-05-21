@@ -2,6 +2,7 @@ import React from "react";
 import HomePage from "./Components/HomePage.js";
 import QuestionPage from "./Components/QuestionPage.js";
 import { nanoid } from "nanoid";
+import he from "he";
 import "./App.css";
 
 export default function App() {
@@ -53,9 +54,12 @@ export default function App() {
     data.results.forEach((quest) => {
       questions.push({
         id: nanoid(),
-        question: quest.question,
-        correct: quest.correct_answer,
-        answers: shuffle([...quest.incorrect_answers, quest.correct_answer]),
+        question: he.decode(quest.question),
+        correct: he.decode(quest.correct_answer),
+        answers: shuffle([
+          ...quest.incorrect_answers.map((answer) => he.decode(answer)),
+          he.decode(quest.correct_answer),
+        ]),
         selected: "",
       });
     });
