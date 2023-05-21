@@ -45,7 +45,7 @@ This project allowed me to independently create a React app from scratch without
 <img src=images/test-running.png height=100/>
 </div>
 
-### Continued development
+## Continued development
 
 To further enhance the project, the following improvements can be made:
 
