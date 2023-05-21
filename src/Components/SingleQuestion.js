@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function singleQuestion(props) {
-  const theButtons = props.answers.map((element) => {
+export default function SingleQuestion(props) {
+  const theButtons = props.answers.map((element, index) => {
     const styles = {
       backgroundColor:
         props.done && props.correct === element
@@ -13,13 +13,13 @@ export default function singleQuestion(props) {
     };
 
     return (
-      <div className="question-answers">
+      <div key={index} className="question-answers">
         <input
           type="radio"
           name={props.correct}
           checked={props.selected === element}
           onChange={(e) => {}}
-        ></input>
+        />
         <label style={styles} onClick={() => props.handleClick(element)}>
           {element}
         </label>
