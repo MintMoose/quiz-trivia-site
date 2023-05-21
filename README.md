@@ -5,12 +5,26 @@ The Quizzical Trivia site is a React-based web application developed as a solo p
 
 The application allows users to engage in trivia quizzes by fetching questions from the Open Trivia Database API. It presents a user-friendly interface with features such as randomized question order, multiple-choice answers, and dynamic scoring. The site provides immediate feedback on the user's performance, displaying the number of correct answers at the end of each quiz.
 
-## Final Project Screenshots
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#final-project-screenshots)
+  - [Links](#links)
+  - [What I learnt](#what-i-learnt)
+  - [Continued development](#continued-development)
+
+
+## Overview
+
+### Final Project Screenshots
 <span>
   <img src=images/quizzical-home.png height=300/>
 <img src=images/quizzical-input.png height=300/>
 <img src=images/quizzical-quiz.png height=300/>
 </span>
+
+### Links
+- Live Site URL: 
 
 ## Usage
 Make sure you have Node.js and npm installed. In the project directory, run the following commands:
@@ -31,7 +45,7 @@ This project allowed me to independently create a React app from scratch without
 <img src=images/test-running.png height=100/>
 </div>
 
-## Improvements
+### Continued development
 
 To further enhance the project, the following improvements can be made:
 
