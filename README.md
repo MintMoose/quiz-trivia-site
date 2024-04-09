@@ -1,26 +1,24 @@
 # Quizzical Trivia site using React
 
-Site URL: 
+## Final Project Screenshots
+<span>
+  <img src=images/quizzical-home.png height=300/>
+<img src=images/quizzical-input.png height=300/>
+<img src=images/quizzical-quiz.png height=300/>
+</span>
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#final-project-screenshots)
   - [What I learnt](#what-i-learnt)
   - [Continued development](#continued-development)
+  - [Usage](#usage)
 
 ## Overview
 
 A React-based web application built with the goal of reinforcing fundamental React concepts while adhering to a given [Figma design](https://www.figma.com/file/E9S5iPcm10f0RIHK8mCqKL/Quizzical-App?node-id=0%3A1 "Figma Design") and project requirements.
 
 The application allows users to engage in trivia quizzes by fetching questions from the Open Trivia Database API. It presents a user-friendly interface with features such as randomized question order, multiple-choice answers, and dynamic scoring. The site provides immediate feedback on the user's performance, displaying the number of correct answers at the end of each quiz.
-
-### Final Project Screenshots
-<span>
-  <img src=images/quizzical-home.png height=300/>
-<img src=images/quizzical-input.png height=300/>
-<img src=images/quizzical-quiz.png height=300/>
-</span>
 
 ## What I Learnt
 This project allowed me to independently create a React app from scratch without relying on a predefined solution. It reinforced my understanding of React by applying past knowledge gained from tutorials and conducting independent research. Using Jest for unit testing greatly contributed to my understanding of DOM manipulation and the concept of mocking data.
